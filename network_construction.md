@@ -132,6 +132,12 @@
 --- 
 ##### Notes and TODOs
 + the default included atlases in `qsiprep` are schaefer100x7, schaefer100x17, schaefer200x7, schaefer200x17, schaefer400x7, schaefer400x17, brainnetome246, aicha384,gordon333, aal116, power264.
-+ the default included atlases in `nilearn` are:![Alt text](fig/atlas_nilearn.png)
++ the default included atlases in `nilearn` are aal, allen_2011, basc_multiscale_2015, craddock_2012, destrieux_2009, harvard_oxford, juelich, schaefer_2018, smith_2009, talairach, yeo_2011 and so on.
 + Therefore, if you want to use other atlases, you need to download the **nii files** and **label files**. [site1](https://www.lead-dbs.org/helpsupport/knowledge-base/atlasesresources/cortical-atlas-parcellations-mni-space/) [site2](https://github.com/neurodata/neuroparc)
 + Multiple subjects task is not tested. But it should be ok by just replacing the `--participant-label xxx` with `--participant-label ${PARTICIPANT_LABEL}`, where `PARTICIPANT_LABEL ="0001 0004 0005"` .
+
+---
+##### Useful Links
++ [Andy's Brain Book](https://andysbrainbook.readthedocs.io/en/latest/)
++ [The Princeton Handbook for Reproducible Neuroimaging](https://brainhack-princeton.github.io/handbook/index.html#the-princeton-handbook-for-reproducible-neuroimaging)
++ [NeuroStars](https://neurostars.org/)
